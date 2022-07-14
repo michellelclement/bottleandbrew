@@ -9,6 +9,36 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.36px;
+  font-weight: bold;
+}
+
+p {
+  letter-spacing: 0.38px;
+  /* line-height: 24px; */
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
 #map { 
   position: absolute; 
   top: 0; 
@@ -26,3 +56,61 @@ body {
     background-position: center;
     background-size: cover;
   }
+
+  .mapboxgl-popup {
+    padding-bottom: 50px;
+  }
+
+  /* Pop up styling */
+/* Marker tweaks */
+.mapboxgl-popup-close-button {
+  color: white;
+  font-size: 2rem;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.mapboxgl-popup-content {
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  width: 250px;
+  height: auto;
+  padding: 0;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.mapboxgl-popup-content h3 {
+  background: rgb(88, 86, 214);
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  border-radius: 3px 3px 0 0;
+  font-weight: 700;
+}
+
+.mapboxgl-popup-content h4 {
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: darkgray;
+  padding: 10px 10px 0px 10px;
+}
+
+.mapboxgl-popup-content p {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.mapboxgl-popup-content a {
+  font-size: 1rem;
+  text-decoration: underline;
+  padding-left: 10px;
+  color: rgb(88, 86, 214);
+}
+
+.mapboxgl-popup-content p {
+  color: #404040;
+}
+
+.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+  border-bottom-color: rgb(88, 86, 214);
+}

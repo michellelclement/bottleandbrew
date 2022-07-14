@@ -53,14 +53,6 @@ function addMarkers() {
           flyToStore(marker);
           /* Close all other popups and display popup for clicked store */
           createPopUp(marker);
-          /* Highlight listing in sidebar */
-          const activeItem = document.getElementsByClassName('active');
-          e.stopPropagation();
-          if (activeItem[0]) {
-            activeItem[0].classList.remove('active');
-          }
-          const listing = document.getElementById(`listing-${marker.properties.id}`);
-          listing.classList.add('active');
         });
     }
   }
