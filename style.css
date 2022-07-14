@@ -22,7 +22,18 @@ h4,
 h5,
 h6 {
   letter-spacing: 0.36px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  color: white;
+}
+
+h3 {
+  letter-spacing: 0.38px;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+h4 {
+  text-align: left;
 }
 
 p {
@@ -30,7 +41,7 @@ p {
   /* line-height: 24px; */
   font-size: 0.9rem;
   font-weight: 200;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
@@ -143,7 +154,7 @@ box-shadow: 1px 1px 10px rgb(88 86 214)
 }
 
 .overlay__container {
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .grip-line {
@@ -157,7 +168,7 @@ box-shadow: 1px 1px 10px rgb(88 86 214)
 }
 
 .content-container {
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 /* Buttons */
 
