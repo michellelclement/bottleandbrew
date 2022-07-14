@@ -1,0 +1,7 @@
+{
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabCompletion": "on",
+  "editor.formatOnSave": false
+}

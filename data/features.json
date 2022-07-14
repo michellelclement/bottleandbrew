@@ -1,0 +1,196 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tribe",
+          "address": "22 Streatham High Rd, London SW16 1DB",
+          "details": "Baby changing facilities in the ladies, men able to use also. Tribe will be installing a changing table in the mens soon. ",
+          "website": "https://www.tribev.co/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.12751, 51.437443] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "LuMa Cafe",
+          "address": "43 Worple Rd, London SW19 4JZ",
+          "details": "Baby changing facility in the unisex disabled toilet.",
+          "website": "https://www.lu-ma.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.21132, 51.42027] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Maison St Cassien",
+          "address": "71 High St, London SW19 5EE",
+          "details": "Unisex baby changing facilitiy available",
+          "website": "https://maisonstcassien.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.21878, 51.4255] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "DropShot Coffee London",
+          "address": "281 Wimbledon Park Rd, London SW19 6NW",
+          "details": "Baby changing facilitiy available in the unisex bathroom",
+          "website": "http://dropshotcoffee.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.20739, 51.44382] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Arthur's - Cafe and Coffee Shop",
+          "address": "Wimbledon Park Hall, 170 Arthur Rd, London SW19 8AQ",
+          "details": "Baby changing facilitiy available in the unisex bathroom",
+          "website": "https://www.arthurscafewimbledon.com/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.19702, 51.4349] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tribe Time",
+          "address": "357 Garrett Lane, Earlsfield, SW18 4DY",
+          "details": "Also with a soft play area. ",
+          "website": "https://www.tribetime.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.18923, 51.44572] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Gailâs Dulwich Village",
+          "address": "91 Dulwich Village London, SE21 7BJ",
+          "details": "Baby change facilities can be found in the unisex disabled toilet",
+          "website": "https://gailsbread.co.uk/bakeries/dulwich-village/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.085254, 51.448852] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Gailâs Balham",
+          "address": "1 Station Parade Balham High Road London, SW12 9AZ",
+          "details": "Baby change facilities can be found in the unisex disabled toilet on the ground floor, step free from street ",
+          "website": "https://gailsbread.co.uk/bakeries/balham/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.15322, 51.44271] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Babycino CafÃ©",
+          "address": "13 Chapel Pl, Tunbridge Wells TN1 1YQ",
+          "details": "Baby friendly cafÃ© with changing facilities available to both men and women. Play area in the basement. ",
+          "website": "https://www.instagram.com/babycinocafe/"
+        },
+        "geometry": { "type": "Point", "coordinates": [0.25987, 51.12703] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Petersham Nurseries Teahouse Richmond",
+          "address": "Off Church Ln, Petersham Rd, Richmond TW10 7AB",
+          "details": "Baby changing facilities in our Disabled WC. This WC is located at the back of the Teahouse and it is unisex.",
+          "website": "https://www.petershamnurseries.com"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.30134, 51.44646] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pickle & Rye",
+          "address": "180 Upper Richmond Rd W, London SW14 8AW",
+          "details": "Baby change facility in the unisex bathroom. ",
+          "website": "https://www.pickleandrye.com/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.262832, 51.465102] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Cafe Benedict",
+          "address": "20 - 22 High St, Teddington TW11 8EW",
+          "details": "Baby changing facilities are located in one our unisex toilets. ",
+          "website": "https://www.cafebenedict.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.33255, 51.42704] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Fine Grind",
+          "address": "90-92 High St, Tunbridge Wells TN1 1YF",
+          "details": "Baby changing facilities are locaged in the lower ground floor, unisex W.C. ",
+          "website": "https://finegrind.coffee/"
+        },
+        "geometry": { "type": "Point", "coordinates": [0.26032, 51.12735] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Darcey's Kitchen",
+          "address": "68A High St, Sevenoaks TN13 1JR",
+          "details": "Baby facilities are located downstairs, our toilet is unisex with the baby changing facilities being separate. ",
+          "website": "https://www.facebook.com/darceyskitchen/"
+        },
+        "geometry": { "type": "Point", "coordinates": [0.19328, 51.26992] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Melias Place",
+          "address": "2 Sevenoaks Rd, Borough Green, Sevenoaks TN15 8BB",
+          "details": "Baby changing facilitiy inside the unisex toilet ",
+          "website": "http://www.meliasplace.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [0.304767, 51.291631] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Social Brew Cafe",
+          "address": "38-40 Lower Richmond Road Putney SW15 1JP",
+          "details": "We have baby changing facilities in one of our bathrooms, which is both for Ladies and Men",
+          "website": "www.socialbrewcafe.co.uk "
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.21921, 51.4674] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Weathered and Worn",
+          "address": "High St, Hadlow, Tonbridge TN11 0EF",
+          "details": "Baby changing facility in the disabled toilet.",
+          "website": "http://www.weatheredandworn.me/"
+        },
+        "geometry": { "type": "Point", "coordinates": [0.336825, 51.223285] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Antipodea",
+          "address": "30 Hill Street Richmond, London TW9 1TW",
+          "details": "Baby changing facility in the ladies toilet. ",
+          "website": "http://antipodea.co.uk/"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.30573, 51.45871] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Orange Pekoe",
+          "address": "3 White Hart Lane, Barnes, London, SW13 0PX",
+          "details": "Baby changing facilities available in the unisex bathroom.",
+          "website": "https://www.orangepekoeteas.com"
+        },
+        "geometry": { "type": "Point", "coordinates": [-0.25548, 51.4707] }
+      }
+    ]
+  }
+  
