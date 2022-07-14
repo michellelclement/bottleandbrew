@@ -120,9 +120,12 @@ a:hover {
 
 .mapboxgl-popup-content a {
   font-size: 1rem;
-  text-decoration: underline;
   padding-left: 10px;
   color: rgb(88, 86, 214);
+}
+
+.mapboxgl-popup-content a:active {
+  color: red;
 }
 
 .mapboxgl-popup-content p {
@@ -134,9 +137,8 @@ a:hover {
 }
 
 .mapboxgl-ctrl-group:not(:empty) {
-box-shadow: 1px 1px 10px rgb(88 86 214)
+  box-shadow: 1px 1px 10px rgb(88 86 214);
 }
-
 
 /* Content Overlay */
 .overlay {
@@ -148,7 +150,7 @@ box-shadow: 1px 1px 10px rgb(88 86 214)
     rgba(88, 86, 214, 1) 0%,
     rgba(130, 129, 236, 1) 100%
   );
-  height: 1000px;
+  height: 100%;
   border-radius: 16px 16px 0 0;
   text-align: center;
 }
@@ -175,15 +177,15 @@ box-shadow: 1px 1px 10px rgb(88 86 214)
 .button-strip {
   margin: 30px;
 }
-.button-strip a {
-  color: rgb(88,86,214);
-border-color:rgb(88,86,214);
-background-color: #ffffff;
-border-radius: 8px;
-padding: 7.5px 16px;
-text-decoration: none;
-margin: 5px;
-border: 1px solid #ffffff;
+.solid-button, .button-strip a {
+  color: rgb(88, 86, 214);
+  border-color: rgb(88, 86, 214);
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 7.5px 16px;
+  text-decoration: none;
+  margin: 5px;
+  border: 1px solid #ffffff;
 }
 
 a:hover {
@@ -195,4 +197,13 @@ a:hover {
 a:focus {
   color: #ffffff;
   border-color: #ffffff;
-} 
+}
+
+
+/* Contact */
+.contact-form {
+  text-align: left;
+  color: white;
+  font-size: 0.9rem;
+  padding: 30px 0px;
+}
