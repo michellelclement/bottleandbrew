@@ -14,3 +14,15 @@ body {
   top: 0; 
   bottom: 0; 
   width: 100%; }
+
+  
+  .marker {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-image: url(assets/images/marker.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
