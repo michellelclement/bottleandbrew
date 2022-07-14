@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,6 +10,11 @@ body {
 }
 
 /* Typography */
+
+h1 {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -23,7 +28,9 @@ h6 {
 p {
   letter-spacing: 0.38px;
   /* line-height: 24px; */
-  font-size: 18px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
 }
 
 a {
@@ -36,32 +43,29 @@ a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 
+#map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 
+.marker {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background-image: url(assets/images/marker.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.mapboxgl-popup {
+  padding-bottom: 50px;
+}
 
-#map { 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; }
-
-  
-  .marker {
-    border: none;
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
-    background-image: url(assets/images/marker.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .mapboxgl-popup {
-    padding-bottom: 50px;
-  }
-
-  /* Pop up styling */
+/* Pop up styling */
 /* Marker tweaks */
 .mapboxgl-popup-close-button {
   color: white;
@@ -98,6 +102,8 @@ a:hover {
 .mapboxgl-popup-content p {
   font-size: 1rem;
   padding: 10px;
+  text-align: left;
+  color: #404040;
 }
 
 .mapboxgl-popup-content a {
@@ -113,4 +119,28 @@ a:hover {
 
 .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
   border-bottom-color: rgb(88, 86, 214);
+}
+
+/* Content Overlay */
+.overlay {
+  position: relative;
+  top: 80vh;
+  background: rgb(88, 86, 214);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 86, 214, 1) 0%,
+    rgba(130, 129, 236, 1) 100%
+  );
+  height: 1000px;
+  border-radius: 16px 16px 0 0;
+}
+
+
+.page-container {
+  text-align: center;
+}
+
+.brand img {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
