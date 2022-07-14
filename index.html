@@ -1,24 +1,24 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-  name="description"
-  content="Ever had to change your baby on a restroom floor? Search for baby-friendly on Bottle & Brew to find cafes near you that have baby changing facilities."
-/>
-<meta
-  name="keywords"
-  content="baby, baby-friendly, antenatal group baby changing facilities, baby changing table, baby-friendly cafes, changing table, cafe locator, baby changing facility locator, coffee, cafe, parents, mums, dads, parenting"
-/>
-<meta
-  property="og:image"
-  content="assets/images/bottleandbrewsocialimg.jpg"
-/>
-<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ever had to change your baby on a restroom floor? Search for baby-friendly on Bottle & Brew to find cafes near you that have baby changing facilities."
+    />
+    <meta
+      name="keywords"
+      content="baby, baby-friendly, antenatal group baby changing facilities, baby changing table, baby-friendly cafes, changing table, cafe locator, baby changing facility locator, coffee, cafe, parents, mums, dads, parenting"
+    />
+    <meta
+      property="og:image"
+      content="assets/images/bottleandbrewsocialimg.jpg"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
 
-<!-- Map Settings -->
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <!-- Map Settings -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
       rel="stylesheet"
@@ -29,38 +29,84 @@
       href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css"
       type="text/css"
     />
-  <!-- Styling -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Styling -->
+    <link rel="stylesheet" href="style.css" />
 
-  <title>Cafes with Baby Changing Facilities - Baby-Friendly Cafe Locator | Bottle
-    & Brew</title>
-</head>
-<body>
-  
-
-  <!-- Map -->
+    <title>
+      Cafes with Baby Changing Facilities - Baby-Friendly Cafe Locator | Bottle
+      & Brew
+    </title>
+  </head>
+  <body>
+    <!-- Map -->
     <div id="map"></div>
 
-
     <!-- Overlay -->
-    <div class="page-container">
+
       <div class="overlay">
-          <a class="navbar-brand brand" href="index.html">
-            <img
-              src="assets/images/bottle_and_brew_logo.png"
-              alt=""
-              width=""
-              height="30px"
-          /></a>
-          <p>Find cafe's with baby changing facilities.</p>
+        <div class="overlay__container">
+          <!-- Grip Line -->
+          <div class="grip-line">____</div>
+        <!-- Logo Section-->
+        <a class="brand" href="index.html">
+          <img
+            src="assets/images/bottle_and_brew_logo.png"
+            alt=""
+            width=""
+            height="30px"
+        /></a>
+        <p>Find cafe's with baby changing facilities.</p>
+        <!-- Buttons -->
+        <div class="button-strip">
+          <a href="about.html">About Us</a>
+          <a href="addvenue.html">Add a Venue</a>
+        </div>
+
+        <div class="content-container">
+        <!-- About us -->
+        <div class="about-us">
+          <div class="aboutus__col">
+            <h4 class="content-subtitle">Did you know that businesses in the UK do not have a legal obligation to offer baby
+              changing facilities? These include cafes, coffee shops and restaurants.
+          </h4>
+          <p class="content-p">
+              When I became a new mum, I learnt this the hard way. I changed my baby on the floor of a toilet more times
+              than is acceptable!
+              <br>
+              <br>
+              My biggest surprise was the cafes that target themselves to mums and new parents for postnatal group meetups
+              during the day, yet do not have baby changing facilities themselves.
+              <br>
+              <br>
+              I created Bottle & Brew to help mothers, fathers, and those looking after babies and toddlers find
+              baby-friendly cafes near them, so they too are not caught out with this issue. Enjoy the much-needed
+              caffeine fix or yummy brunch somewhere with suitable baby changing facilities.
+              <br>
+              <br>
+              Additionally, I hope this site encourages more venues to install the facilities needed.
+              <br>
+              <br>
+              The cafes and venues plotted on the map have been submitted by a community of mums and dads wanting to share
+              their favourite baby-friendly brunch and coffee shops near them.
+          </p>
+          <br>
+          <br>
+          <h4>How to submit a venue</h4>
+          <p>Do you know a cafe with baby changing facilities that you would like to recommend to other parents? Whether
+              it is a place you have visited, or you are the venue owner yourself, please click the button below to be
+              taken to the quick form to fill out and submit the venue.
+              <br>
+              <br>
+              The site is updated with new listings regularly, once a week at the very minimum. Thank you for your
+              submission! Michelle x
+          </p>
+      </div>
+          </div>
+        </div>
       </div>
     </div>
-
-
-
-
-  <!-- Scripts -->
-  <script src="app.js"></script>
-  
-</body>
+  </div>
+    <!-- Scripts -->
+    <script src="app.js"></script>
+  </body>
 </html>

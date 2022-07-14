@@ -28,7 +28,8 @@ h6 {
 p {
   letter-spacing: 0.38px;
   /* line-height: 24px; */
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 200;
   text-align: center;
   color: white;
 }
@@ -121,10 +122,15 @@ a:hover {
   border-bottom-color: rgb(88, 86, 214);
 }
 
+.mapboxgl-ctrl-group:not(:empty) {
+box-shadow: 1px 1px 10px rgb(88 86 214)
+}
+
+
 /* Content Overlay */
 .overlay {
   position: relative;
-  top: 80vh;
+  top: 90vh;
   background: rgb(88, 86, 214);
   background: linear-gradient(
     90deg,
@@ -133,14 +139,49 @@ a:hover {
   );
   height: 1000px;
   border-radius: 16px 16px 0 0;
-}
-
-
-.page-container {
   text-align: center;
 }
 
+.overlay__container {
+  padding: 0 20px;
+}
+
+.grip-line {
+  color: white;
+  font-weight: 800;
+}
+
 .brand img {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+.content-container {
+  padding: 10px 0px;
+}
+/* Buttons */
+
+.button-strip {
+  margin: 30px;
+}
+.button-strip a {
+  color: rgb(88,86,214);
+border-color:rgb(88,86,214);
+background-color: #ffffff;
+border-radius: 8px;
+padding: 7.5px 16px;
+text-decoration: none;
+margin: 5px;
+border: 1px solid #ffffff;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+a:focus {
+  color: #ffffff;
+  border-color: #ffffff;
+} 
