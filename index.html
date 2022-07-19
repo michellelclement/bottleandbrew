@@ -44,7 +44,7 @@
       <!-- Logo Section-->
       <a class="brand" href="index.html">
         <img src="assets/images/bottle_and_brew_logo.png" alt="" width="" height="30px" /></a>
-      <h3>Find cafe's with baby changing facilities.</h3>
+      <h2>Find cafe's with baby changing facilities.</h2>
         <!-- Buttons -->
         <div class="button-strip">
           <a href="about.html">About Us</a>
@@ -90,6 +90,50 @@
               <p>Whether you have a question or simply want to say hello, we would love to hear from you. Just fill out
                 the form below and we will get back to you as soon as we can. Thank you!
               </p>
+              <!-- Contact Form -->
+          <div class="contact-form">
+            <form onsubmit="return sendMail(this);">
+              <!-- Name -->
+              <div>
+                <label for="contactName" class="form-label">Name*</label>
+                <input type="text" name="contactName" class="form-control" id="contactName" required/>
+              </div>
+              <div>
+                <label for="contactEmail" class="form-label">Email*</label>
+                <input type="email" name="contactEmail" class="form-control" id="contactEmail" required
+            />
+              </div>
+              <!-- Message -->
+              <div>
+                <label for="message" class="form-label">Message*</label>
+                <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <!-- Button -->
+              <button type="submit" class="btn solid-button shadow-none">Submit</button>
+            </form>
+          </div>
+            </div>
+          </div>
+
+
+          <!-- Add Venue -->
+          <div class="add-venue">
+            <div class="add-venue__col">
+              <h3 class="content-subtitle">Submit a Cafe.</h3>
+              <p class="content-p">
+                Some of the best parenting advice I have received has been from other parents, and this site is for exactly that.
+                <br>
+                <br>
+                Baby-friendly cafe recommendations on Bottle & Brew are added by parents who have shared their favourite brunch locations and coffee shops with those all-important baby changing facilities.
+                <br>
+                <br>
+                Do you know of any venues with baby changing facilities that would be perfect for other parents? I have created a quick form below to submit its details and add it to the map.
+                <br>
+                <br>
+                Thank you! Michelle x
+              </p>
+              <br>
+              <br>
               <!-- Contact Form -->
           <div class="contact-form">
             <form onsubmit="return sendMail(this);">

@@ -21,19 +21,26 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: 0.36px;
+  letter-spacing: 0.38px;
+  text-align: left;
   /* font-weight: bold; */
   color: white;
 }
 
-h3 {
+h2 {
   letter-spacing: 0.38px;
   font-size: 0.9rem;
   font-weight: 200;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 h4 {
-  text-align: left;
   font-size: 1.1rem;
 }
 
@@ -210,7 +217,9 @@ a:focus {
 }
 
 
-
+.about-us {
+  display: none;
+}
 /*********************** Media Queries */
 
 /* Tablet */
