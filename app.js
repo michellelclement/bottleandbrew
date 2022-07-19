@@ -21,16 +21,3 @@ if (addVenueBtn) {
     addVenue.classList.remove("hidden");
   });
 }
-
-
-
-
-// aboutBtn.addEventListener("click", function(){
-//   aboutSection.classList.remove("hidden");
-//   addVenue.classList.add("hidden");
-// });
-
-// addVenueBtn.addEventListener("click", function(){
-//   aboutSection.classList.add("hidden");
-//   addVenue.classList.remove("hidden");
-// });

@@ -185,7 +185,7 @@ a:hover {
 .button-strip {
   margin: 30px 0;
 }
-.solid-button, .button-strip a {
+.solid-button, .button {
   color: rgb(88, 86, 214);
   border-color: rgb(88, 86, 214);
   background-color: #ffffff;
@@ -196,13 +196,13 @@ a:hover {
   border: 1px solid #ffffff;
 }
 
-a:hover {
+button:hover {
   color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
 }
 
-a:focus {
+button:focus {
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -216,10 +216,6 @@ a:focus {
   padding: 30px 0px;
 }
 
-
-/* .about-us {
-  display: none;
-} */
 
 .hidden {
   display: none;
