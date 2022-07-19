@@ -192,7 +192,7 @@ a:hover {
   border-radius: 8px;
   padding: 7.5px 16px;
   text-decoration: none;
-  margin: 5px;
+  margin: 15px 0px;
   border: 1px solid #ffffff;
 }
 
@@ -217,9 +217,28 @@ a:focus {
 }
 
 
-.about-us {
+/* .about-us {
   display: none;
+} */
+
+.form-text {
+  color: rgba(255, 255, 255, 0.6);
 }
+
+.form-contact-info {
+  padding-top: 50px;
+  padding-bottom: 10px;;
+}
+
+.form-label {
+  padding-top: 15px;
+  margin-bottom: 0.25rem;
+}
+
+.comments-label {
+  margin-bottom: 0px;
+}
+
 /*********************** Media Queries */
 
 /* Tablet */
