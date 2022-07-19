@@ -221,6 +221,10 @@ a:focus {
   display: none;
 } */
 
+.hidden {
+  display: none;
+}
+
 .form-text {
   color: rgba(255, 255, 255, 0.6);
 }
