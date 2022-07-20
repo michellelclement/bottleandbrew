@@ -35,7 +35,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>
       Cafes with Baby Changing Facilities - Baby-Friendly Cafe Locator | Bottle
@@ -56,7 +56,7 @@
         <a class="brand" href="index.html">
           <img
             src="assets/images/bottle_and_brew_logo.png"
-            alt=""
+            alt="Bottle and Brew logo"
             width=""
             height="30px"
         /></a>
@@ -64,7 +64,9 @@
         <!-- Buttons -->
         <div class="button-strip">
           <button id="about-btn" class="button about-btn">About Us</button>
-          <button id="add-venue-btn" class="button add-venue-btn">Add a Venue</button>
+          <button id="add-venue-btn" class="button add-venue-btn">
+            Add a Venue
+          </button>
         </div>
 
         <div class="content-container">
@@ -96,7 +98,9 @@
                 <br />
                 The cafes and venues plotted on the map have been submitted by a
                 community of mums and dads wanting to share their favourite
-                baby-friendly brunch and coffee shops near them. If you have a cafe you would like to reccommend, click the 'Add a Cafe' button up the top and fill in the quick form. ☝️
+                baby-friendly brunch and coffee shops near them. If you have a
+                cafe you would like to reccommend, click the 'Add a Cafe' button
+                up the top and fill in the quick form. ☝️
               </p>
               <br />
               <br />
@@ -173,66 +177,119 @@
               <br />
               <br />
               <!-- Submit Venue Form -->
-             <div class="submit-venue, contact-form">
-              <form onsubmit="return sendForm(this);">
-                <!-- Venue Name -->
-                <div>
-                  <label for="venueName" class="form-label">Cafe Name*</label>
-                  <input type="text" class="form-control" id="venueName" required>
-                </div>
-
-                <!-- Venue Address -->
-                <div>
-                  <label for="venueAddress" class="form-label">Cafe Address*</label>
-                  <input type="text" class="form-control" id="venueAddress" required>
-                  <div id="emailHelp" class="form-text"></div>
-                </div>
-
-                <!-- Website -->
-                <div>
-                  <label for="venueWebsite" class="form-label">Cafe Website</label>
-                  <input type="text" class="form-control" id="venueWebsite">
-                  <div id="venueWebsiteHelp" class="form-text">If the venue does not have a website, a link to a social media page is also ok.</div>
-                </div>
-
-                <!-- Any other comments -->
-                <div>
-                  <label for="venueComments" class="form-label comments-label">Baby Change Details*</label>
-                  <div id="venueWebsiteHelp" class="form-text">E.g: Baby changing facilities can be found in the unisex disabled toilet...</div>
-                  <textarea class="form-control" id="venueComments" rows="3" required></textarea>
-                </div>
-
-                <!-- Name & Email Address -->
-                <div class="form-contact-info">
-                  <p>Please could we have your name and email in case we need to contact you? If you do not want to, just skip to the submit button.</p>
-                  <p>We will not publish your name or email, nor will we share it with anyone else.</p>
-                </div>
-
+              <div class="submit-venue, contact-form">
+                <form onsubmit="return sendForm(this);">
+                  <!-- Venue Name -->
                   <div>
-                    <label for="addVenueContactName" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="addVenueContactName">
+                    <label for="venueName" class="form-label">Cafe Name*</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="venueName"
+                      required
+                    />
+                  </div>
+
+                  <!-- Venue Address -->
+                  <div>
+                    <label for="venueAddress" class="form-label"
+                      >Cafe Address*</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="venueAddress"
+                      required
+                    />
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+
+                  <!-- Website -->
+                  <div>
+                    <label for="venueWebsite" class="form-label"
+                      >Cafe Website</label
+                    >
+                    <input type="text" class="form-control" id="venueWebsite" />
+                    <div id="venueWebsiteHelp" class="form-text">
+                      If the venue does not have a website, a link to a social
+                      media page is also ok.
+                    </div>
+                  </div>
+
+                  <!-- Any other comments -->
+                  <div>
+                    <label for="venueComments" class="form-label comments-label"
+                      >Baby Change Details*</label
+                    >
+                    <div class="form-text">
+                      E.g: Baby changing facilities can be found in the unisex
+                      disabled toilet...
+                    </div>
+                    <textarea
+                      class="form-control"
+                      id="venueComments"
+                      rows="3"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <!-- Name & Email Address -->
+                  <div class="form-contact-info">
+                    <p>
+                      Please could we have your name and email in case we need
+                      to contact you? If you do not want to, just skip to the
+                      submit button.
+                    </p>
+                    <p>
+                      We will not publish your name or email, nor will we share
+                      it with anyone else.
+                    </p>
                   </div>
 
                   <div>
-                    <label for="addVenueEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="addVenueEmail" placeholder="name@example.com">
+                    <label for="addVenueContactName" class="form-label"
+                      >Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="addVenueContactName"
+                    />
                   </div>
 
-                <!-- Button -->
-                <button type="submit" class="btn solid-button shadow-none">Submit</button>
-                <br>
-                  <br>
-                  <p>Due to having a little one of our own, submitted listings are added to the map once a week at the very minimum, so please bear with us! Thank you!</p>
-              </form>
-             </div>
+                  <div>
+                    <label for="addVenueEmail" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="addVenueEmail"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+
+                  <!-- Button -->
+                  <button type="submit" class="btn solid-button shadow-none">
+                    Submit
+                  </button>
+                  <br />
+                  <br />
+                  <p>
+                    Due to having a little one of our own, submitted listings
+                    are added to the map once a week at the very minimum, so
+                    please bear with us! Thank you!
+                  </p>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Scripts -->
-    <script src="app.js"></script>
-    <script src="map.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/map.js"></script>
     <!-- Form Script -->
     <script src="assets/js/sendForm.js"></script>
     <script src="assets/js/sendEmail.js"></script>

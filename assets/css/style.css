@@ -75,7 +75,7 @@ a:hover {
   cursor: pointer;
   height: 30px;
   width: 30px;
-  background-image: url(assets/images/marker.svg);
+  background-image: url(../../assets/images/marker.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .mapboxgl-popup-content a:active {
-  color: red;
+  color: #404040;
 }
 
 .mapboxgl-popup-content p {
@@ -245,7 +245,7 @@ button:focus {
 /* Tablet */
 @media screen and (min-width: 780px) {
   .overlay {
-    top: 85vh;
+    top: 80vh;
     text-align: center;
   }
   
