@@ -240,12 +240,34 @@ button:focus {
   margin-bottom: 0px;
 }
 
-.instagram {
-  color: #ffffff;
-  font-size: 2rem;
-  text-align: left;
+.socials-text {
+  padding-top: 2rem;
+}
+.socials {
+  display: flex;
+  justify-content: left;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
+.instagram {
+  color: #ffffff;
+  font-size: 2.5rem;
+  padding-right: 30px;
+}
+
+a.bmc-btn {
+  color: #404040;
+  font-size: 1.1rem;
+  height: 40px;
+  min-width: 0;
+  padding: 0px 30px 0px 12px;
+}
+
+.bmc-btn-text {
+  margin-left: 0;
+}
 /*********************** Media Queries */
 
 /* Tablet */
@@ -262,6 +284,8 @@ button:focus {
   h4 {
     font-size: 1.1rem;
   }
+
+  
 }
 
 /* Desktop */
