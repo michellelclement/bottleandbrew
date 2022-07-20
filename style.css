@@ -91,7 +91,7 @@ a:hover {
   color: white;
   font-size: 2rem;
   padding-right: 10px;
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .mapboxgl-popup-content {
@@ -105,6 +105,7 @@ a:hover {
 
 .mapboxgl-popup-content h3 {
   background: rgb(88, 86, 214);
+  font-size: 1rem;
   color: #fff;
   margin: 0;
   padding: 10px;
@@ -114,13 +115,13 @@ a:hover {
 
 .mapboxgl-popup-content h4 {
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: darkgray;
   padding: 10px 10px 0px 10px;
 }
 
 .mapboxgl-popup-content p {
-  font-size: 1rem;
+  font-size: 0.85rem;
   padding: 10px;
   text-align: left;
   color: #404040;
@@ -196,7 +197,7 @@ a:hover {
   border: 1px solid #ffffff;
 }
 
-button:hover {
+button:hover, .solid-button:hover {
   color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
