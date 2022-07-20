@@ -240,6 +240,12 @@ button:focus {
   margin-bottom: 0px;
 }
 
+.instagram {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: left;
+}
+
 /*********************** Media Queries */
 
 /* Tablet */
