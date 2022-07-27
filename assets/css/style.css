@@ -183,16 +183,14 @@ a:hover {
   padding: 20px 0px;
 }
 
-.about-us {
-  display: none;
-}
 /* Buttons */
 
 .button-strip {
   margin: 30px 0;
 }
 
-.solid-button, .button {
+.solid-button,
+.button {
   position: relative;
   color: rgb(88, 86, 214);
   border-color: rgb(88, 86, 214);
@@ -204,7 +202,8 @@ a:hover {
   border: 1px solid #ffffff;
 }
 
-button:hover, .solid-button:hover {
+button:hover,
+.solid-button:hover {
   color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
@@ -216,7 +215,6 @@ button:focus {
   background-color: transparent;
 }
 
-
 /* Contact */
 .contact-form {
   text-align: left;
@@ -225,11 +223,9 @@ button:focus {
   padding: 30px 0px;
 }
 
-
 .hidden {
   display: none;
 }
-  
 
 .form-text {
   color: rgba(255, 255, 255, 0.6);
@@ -237,7 +233,7 @@ button:focus {
 
 .form-contact-info {
   padding-top: 50px;
-  padding-bottom: 10px;;
+  padding-bottom: 10px;
 }
 
 .form-label {
@@ -259,9 +255,9 @@ button:focus {
 .socials-icons {
   display: flex;
   justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .instagram {
@@ -289,7 +285,7 @@ a.bmc-btn {
     top: 80vh;
     text-align: center;
   }
-  
+
   .overlay__container {
     padding: 0 80px;
   }
@@ -302,7 +298,6 @@ a.bmc-btn {
     padding: 4rem 5rem 1rem 5rem;
     text-align: center;
   }
-  
 }
 
 /* Desktop */
@@ -333,14 +328,9 @@ a.bmc-btn {
     font-size: 0.9rem;
   }
 
-  .about-us {
-    display: contents;
-  }
-
   .socials-text {
     padding: 12rem 0 0 0;
   }
-
 }
 
 /* Desktop */
