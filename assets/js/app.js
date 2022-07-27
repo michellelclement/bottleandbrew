@@ -8,7 +8,6 @@ const addVenue = document.querySelector('.add-venue');
 
 if (aboutBtn) {
   aboutBtn.addEventListener("click", () => {
-    console.log('btn clicked');
     aboutSection.classList.remove("hidden");
     addVenue.classList.add("hidden");
   });
@@ -16,7 +15,6 @@ if (aboutBtn) {
 
 if (addVenueBtn) {
   addVenueBtn.addEventListener("click", () => {
-    console.log('aboutbtn clicked');
     aboutSection.classList.add("hidden");
     addVenue.classList.remove("hidden");
   });
