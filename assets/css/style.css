@@ -191,7 +191,7 @@ a:hover {
   margin: 30px 0;
 }
 
-.solid-button, button {
+.solid-button, .button {
   position: relative;
   color: rgb(88, 86, 214);
   border-color: rgb(88, 86, 214);
