@@ -181,6 +181,10 @@ a:hover {
 .content-container {
   padding: 20px 0px;
 }
+
+.about-us {
+  display: none;
+}
 /* Buttons */
 
 .button-strip {
@@ -326,6 +330,10 @@ a.bmc-btn {
 
   h4 {
     font-size: 0.9rem;
+  }
+
+  .about-us {
+    display: contents;
   }
 
   .socials-text {
