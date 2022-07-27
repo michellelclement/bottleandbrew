@@ -242,12 +242,16 @@ button:focus {
   margin-bottom: 0px;
 }
 
+/* Social Section */
 .socials-text {
+  text-align: center;
   padding-top: 2rem;
+  font-size: 0.9rem;
 }
-.socials {
+
+.socials-icons {
   display: flex;
-  justify-content: left;
+  justify-content: center;
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -257,6 +261,7 @@ button:focus {
   color: #ffffff;
   font-size: 2.5rem;
   padding-right: 30px;
+  padding-top: 0.5rem;
 }
 
 a.bmc-btn {
@@ -287,6 +292,10 @@ a.bmc-btn {
     font-size: 1.1rem;
   }
 
+  .socials-text {
+    padding: 4rem 5rem 1rem 5rem;
+    text-align: center;
+  }
   
 }
 
@@ -297,13 +306,13 @@ a.bmc-btn {
     left: 0;
     top: 0;
     width: 350px;
-    /* height: 100%; */
     border-radius: 0 16px 16px 0;
     text-align: center;
   }
 
   .overlay__container {
     padding: 50px 30px 0px 30px;
+    min-height: 100vh;
   }
 
   .button-strip {
@@ -317,6 +326,11 @@ a.bmc-btn {
   h4 {
     font-size: 0.9rem;
   }
+
+  .socials-text {
+    padding: 12rem 0 0 0;
+  }
+
 }
 
 /* Desktop */
@@ -326,7 +340,7 @@ a.bmc-btn {
   }
 
   .overlay__container {
-    padding: 50px 30px 0px 30px;
+    padding: 80px 30px 0px 30px;
   }
 
   .button-strip {
@@ -337,6 +351,9 @@ a.bmc-btn {
     display: none;
   }
 
+  h2 {
+    font-size: 1.2rem;
+  }
   h4 {
     font-size: 1rem;
   }
@@ -344,5 +361,7 @@ a.bmc-btn {
   p {
     font-size: 1rem;
   }
-
+  .socials-text {
+    padding: 15rem 0 0 0;
+  }
 }
