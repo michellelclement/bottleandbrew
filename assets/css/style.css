@@ -101,6 +101,8 @@ a:hover {
   padding: 0;
   padding-bottom: 10px;
   border-radius: 10px;
+  margin-top: 1.2rem;
+  z-index: 10;
 }
 
 .mapboxgl-popup-content h3 {
@@ -297,6 +299,10 @@ a.bmc-btn {
   .socials-text {
     padding: 4rem 5rem 1rem 5rem;
     text-align: center;
+  }
+
+  .mapboxgl-popup-content {
+    margin-top: 0;
   }
 }
 
