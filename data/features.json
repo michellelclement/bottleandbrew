@@ -8529,6 +8529,19 @@
         "details":"Single unisex toilet with a baby changing facilities ",
         "website":"https://www.instagram.com/seasprayfistral/"
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+           "type": "Point",
+           "coordinates":  [ -1.531620,52.294380 ]
+        },
+        "properties": {
+        "name":"The Steamhouse Depot",
+        "address":"54 Morton St, Leamington Spa CV32 5SY",
+        "details":"Changing table in the disabled loo. Lots of tables with spaces for prams and breastfeeding. Popular with mums and babies with great food.",
+        "website":"https://thesteamhouse.co/"
+        }
       }
     ]
   }
